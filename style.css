@@ -1,0 +1,98 @@
+body {
+    font-family: TimesNewRoman, "Times New Roman", Times, Baskerville,
+}
+
+div {
+    background: lightblue;
+    width: 360px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.fa-pencil {
+    float: right;
+    padding-right: 10px;
+}
+
+.completed {
+    color: gray;
+    text-decoration: line-through;
+}
+
+body {
+    background: #000000;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+li {
+    font-family: "Ubuntu Condensed";
+    font-size: 24px;
+    list-style: none;
+    line-height: 40px;
+    width: 100%;
+    /* padding-left: 4px;
+    padding-top:10px;
+    padding-bottom: 10px;*/
+    cursor: pointer;
+}
+
+li:nth-child(2n) {
+    background-color: antiquewhite;
+}
+
+h1 {
+    font-family: "Ubuntu Condensed";
+    font-size: 50px;
+    font-weight: normal;
+    background: rgb(124, 124, 201);
+    margin: 0px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+input {
+    background: rgb(250, 240, 227);
+    box-sizing: border-box;
+    margin: 0px;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 5px;
+    padding-left: 20px;
+    font-family: "Ubuntu Condensed";
+    font-size: 24px;
+}
+
+input:focus {
+    background: whitesmoke;
+    border: solid 2px rgb(124, 124, 201);
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+span {
+    background: red;
+    text-align: center;
+    display: inline-block;
+    width: 0;
+    height: 40px;
+    padding: 0px;
+    transition: .1s linear;
+    opacity: 0;
+}
+
+li:hover span {
+  
+    width: 40px;
+    position: relative;
+    transition: .2s linear;
+    opacity: 1;
+    
+}
